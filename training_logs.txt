@@ -1,0 +1,37 @@
+2025-06-06 13:21:36,271 - DataIngestion - INFO - Loaded 64721 audio files with 30 classes
+2025-06-06 13:21:36,366 - DataIngestion - INFO - Data split into training and testing sets
+2025-06-06 13:21:36,367 - KeywordSpottingPipeline - INFO - Number of classes: 30
+2025-06-06 13:35:36,743 - ModelTrainer - INFO - Epoch 1/10, Classification Loss: 3.1799, Denoising Loss: 2167.7709, Accuracy: 8.95%
+2025-06-06 13:35:36,743 - ModelTrainer - INFO - Test Accuracy: 9.25%
+2025-06-06 13:39:18,218 - DataIngestion - INFO - Loaded 64721 audio files with 30 classes
+2025-06-06 13:39:18,310 - DataIngestion - INFO - Data split into training and testing sets
+2025-06-06 13:39:18,312 - KeywordSpottingPipeline - INFO - Number of classes: 30
+2025-06-06 13:39:20,134 - ModelTrainer - INFO - Device in use cpu
+2025-06-06 13:56:55,161 - DataIngestion - INFO - Loaded 64721 audio files with 30 classes
+2025-06-06 13:56:55,250 - DataIngestion - INFO - Data split into training and testing sets
+2025-06-06 13:56:55,251 - KeywordSpottingPipeline - INFO - Number of classes: 30
+2025-06-06 13:56:59,169 - ModelTrainer - INFO - Device in use cuda
+2025-06-06 14:01:11,847 - ModelTrainer - INFO - Epoch 1/10, Classification Loss: 3.2450, Denoising Loss: 2071.2359, Accuracy: 7.69%
+2025-06-06 14:01:11,848 - ModelTrainer - INFO - Test Accuracy: 10.34%
+2025-06-06 14:04:57,503 - ModelTrainer - INFO - Epoch 2/10, Classification Loss: 2.8358, Denoising Loss: 221.5153, Accuracy: 15.87%
+2025-06-06 14:04:57,503 - ModelTrainer - INFO - Test Accuracy: 15.44%
+2025-06-06 14:08:43,175 - ModelTrainer - INFO - Epoch 3/10, Classification Loss: 2.4315, Denoising Loss: 16.9666, Accuracy: 24.65%
+2025-06-06 14:08:43,175 - ModelTrainer - INFO - Test Accuracy: 27.80%
+2025-06-06 14:12:29,625 - ModelTrainer - INFO - Epoch 4/10, Classification Loss: 1.9175, Denoising Loss: 15.6102, Accuracy: 40.28%
+2025-06-06 14:12:29,625 - ModelTrainer - INFO - Test Accuracy: 35.89%
+2025-06-06 14:16:16,045 - ModelTrainer - INFO - Epoch 5/10, Classification Loss: 1.4868, Denoising Loss: 15.5646, Accuracy: 53.48%
+2025-06-06 14:16:16,045 - ModelTrainer - INFO - Test Accuracy: 51.54%
+2025-06-06 14:20:03,779 - ModelTrainer - INFO - Epoch 6/10, Classification Loss: 1.1719, Denoising Loss: 15.2745, Accuracy: 63.29%
+2025-06-06 14:20:03,779 - ModelTrainer - INFO - Test Accuracy: 67.08%
+2025-06-06 14:23:53,713 - ModelTrainer - INFO - Epoch 7/10, Classification Loss: 0.9423, Denoising Loss: 15.0793, Accuracy: 70.56%
+2025-06-06 14:23:53,713 - ModelTrainer - INFO - Test Accuracy: 57.98%
+2025-06-06 14:27:43,615 - ModelTrainer - INFO - Epoch 8/10, Classification Loss: 0.8138, Denoising Loss: 15.0306, Accuracy: 74.48%
+2025-06-06 14:27:43,615 - ModelTrainer - INFO - Test Accuracy: 67.18%
+2025-06-06 14:31:32,452 - ModelTrainer - INFO - Epoch 9/10, Classification Loss: 0.6993, Denoising Loss: 14.9418, Accuracy: 78.10%
+2025-06-06 14:31:32,452 - ModelTrainer - INFO - Test Accuracy: 78.42%
+2025-06-06 14:35:21,483 - ModelTrainer - INFO - Epoch 10/10, Classification Loss: 0.6311, Denoising Loss: 14.8596, Accuracy: 80.08%
+2025-06-06 14:35:21,483 - ModelTrainer - INFO - Test Accuracy: 79.22%
+2025-06-06 14:35:21,513 - ModelTrainer - INFO - Model saved to /home/dinesh/Documents/GitHub/BTP-keyword_spotting-in-speech/model1.pth
+2025-06-06 14:36:02,136 - ModelEvaluator - INFO - Evaluation Results: Accuracy: 79.21%
+2025-06-06 14:36:02,139 - ModelEvaluator - INFO - Confusion Matrix:
+[...truncated...]
