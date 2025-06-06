@@ -1,0 +1,12 @@
+kws_diffusion_pipeline/
+├── config.yaml              # Configuration file for parameters
+├── logs/                    # Directory for logs
+├── src/
+│   ├── __init__.py          # Exposes main classes
+│   ├── data_ingestion.py    # Loads audio datasets
+│   ├── data_preprocessing.py # Extracts mel-spectrogram features
+│   ├── model_training.py    # Implements diffusion model and training
+│   ├── model_evaluation.py  # Evaluates model performance
+│   ├── pipeline.py          # Orchestrates the KWS pipeline
+├── main.py                  # Runs the pipeline
+├── requirements.txt         # Dependencies

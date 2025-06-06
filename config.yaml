@@ -1,0 +1,42 @@
+# Configuration file for keyword spotting diffusion pipeline
+
+# General settings
+general:
+  log_dir: "logs"
+  device: "cuda"  
+
+# Data ingestion settings
+data_ingestion:
+  dataset_path: "/home/dinesh/Documents/GitHub/BTP-keyword_spotting-in-speech/archive"  # Path to dataset
+  test_size: 0.2  # Proportion of data for testing
+  random_state: 42  # Random seed for train-test split
+
+# Data preprocessing settings
+data_preprocessing:
+  sampling_rate: 16000  # Sampling rate of audio files
+  n_mels: 64  # Number of mel bins
+  n_fft: 1024  # FFT window size
+  hop_length: 512  # Hop length for mel-spectrogram
+  spectrogram_shape: [64, 32]  # Target shape: [frequency bins, time steps]
+
+# Model architecture settings
+model_architecture:
+  timesteps: 1000  # Number of diffusion steps
+  beta_start: 0.0001  # Starting value for noise schedule
+  beta_end: 0.02  # Ending value for noise schedule
+  unet_channels: 64  # Base number of channels in U-Net
+  classifier_hidden_dim: 128  # Hidden dimension in classification head
+  dropout_rate: 0.1  # Dropout rate in classification head
+
+# Training settings
+model_training:
+  batch_size: 128  # Batch size for training
+  learning_rate: 0.001  # Learning rate
+  num_epochs: 10  # Number of training epochs
+  lambda_cls: 1.0  # Weight for classification loss
+  lambda_denoise: 1.0  # Weight for denoising loss
+  model_path: "/home/dinesh/Documents/GitHub/BTP-keyword_spotting-in-speech/model1.pth"  # Path to save the trained model
+
+# Evaluation settings
+model_evaluation:
+  batch_size: 128  # Batch size for evaluation
